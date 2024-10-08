@@ -46,4 +46,3 @@ python3 image_pub.py
 ```bash
 python3 image_sub.py
 ```
-# image_transport
