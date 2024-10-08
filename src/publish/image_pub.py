@@ -31,7 +31,7 @@ class ImageServer(Node):
             10)
         self.subscription  
         # 设置 JPEG 压缩参数
-        self.encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 90]  # 可以根据需要调整质量
+        self.encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 50]  # 可以根据需要调整质量
 
     def image_callback(self, msg):
         try:
