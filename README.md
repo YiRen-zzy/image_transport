@@ -18,11 +18,10 @@ ros2 launch mindvision_camera mv_launch.py
 实际使用时，将 **/image_raw** 替换为相应的话题名称
 ```python
 self.subscription = self.create_subscription(
-            Image, 
-            '/image_raw', 
+            Image,
+            '/image_raw',
             self.image_callback,
-            10)
-        self.subscription  
+            5)  
 ```
 打开新终端，启动订阅端**image_sub.py** `python3 image_sub.py`
 
