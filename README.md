@@ -38,11 +38,12 @@ colcon build
 source install/setup.bash
 ros2 launch mindvision_camera mv_launch.py 
 ```
+打开一个新终端
 ```bash
 cd image_transport/src/publish
 python3 image_pub.py
 ```
-最后在本地终端启动接收节点
+最后在本地终端启动接收节点，记得替换IP
 ```bash
 python3 image_sub.py
 ```
