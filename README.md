@@ -34,7 +34,7 @@ client_socket.connect(('192.168.31.248', 8888))
 `ssh reborn@192.168.31.248`
 在远程终端中启动相机节点和发布节点
 ```bash
-colcon build
+cd ros_ws
 source install/setup.bash
 ros2 launch mindvision_camera mv_launch.py 
 ```
